@@ -3,7 +3,7 @@ import { Segmented } from 'antd';
 
 const Demo: React.FC = () => (
   <Segmented<string>
-    options={['Daily', 'Weekly', 'Monthly', 'Quarterly', 'Yearly']}
+    options={['Pending Action', 'Involves Me', 'All Request']}
     onChange={(value) => {
       console.log(value); // string
     }}
